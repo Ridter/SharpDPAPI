@@ -2,7 +2,7 @@
 
 global('$SharpDPAPI::AssemblyPath');
 
-$SharpDPAPI::AssemblyPath = "/path/to/SharpDPAPI.exe";
+$SharpDPAPI::AssemblyPath = "/Users/evi1cg/Pentest/cobaltstrike/aggressor/Evag/git/SharpDPAPI/SharpDPAPI.exe";
 
 if(!-exists $SharpDPAPI::AssemblyPath) {
     show_error("SharpDPAPI path not found!");
